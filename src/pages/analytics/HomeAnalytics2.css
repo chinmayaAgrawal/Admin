@@ -1,0 +1,82 @@
+
+
+/*
+     #chart5 {
+      max-width: 650px;
+      margin: 35px auto;
+    }
+    #chart5 .apexcharts-xaxis-label {
+      font-weight: bold;
+    }
+        #chart4 {
+          max-width: 480px;
+          margin: 35px auto;
+          padding: 0;
+        }
+        .actions {
+          top: -10px;
+          position: relative;
+          z-index: 10;
+          max-width: 400px;
+          margin: 0 auto;
+        }
+        button {
+          color: #fff;
+          background: #20b2aa;
+          padding: 5px 10px;
+          margin: 2px;
+          font-weight: bold;
+          font-size: 13px;
+          border-radius: 5px;
+        }
+        p {
+          margin: 10px 0;
+        }
+        @media only screen and (max-width: 480px) {
+          .actions {
+            margin-top: 0;
+            left: 0
+          }
+        }*/
+            
+            
+            #chart {
+                padding: 30px;
+                max-width: 650px;
+                margin: 35px auto;
+              }
+              
+              .apexcharts-legend text {
+                font-weight: 900;
+              }
+                
+        #card {
+            max-width: 650px;
+            margin: 35px auto;
+            padding: 0px;
+            text-align: center;
+            background-color: #f7f596e5;
+          }
+          #chart{
+            background-color: #f7f596e5;
+          }
+          
+          h2 {
+            font-size: 18px;
+            margin-bottom: 0;
+            color: rgb(192, 192, 192);
+          }
+          h1 {
+            font-size: 22px;
+            margin-top: 0;
+            color: #333;
+          }
+          
+          .footer {
+            position: absolute;
+            bottom: 16px;
+            left: 0;
+            right: 0;
+            font-size: 14px;
+            text-align: center
+          }

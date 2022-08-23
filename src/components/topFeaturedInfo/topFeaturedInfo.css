@@ -1,0 +1,108 @@
+.topFeatured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top:30px;  
+  }
+  .topFeaturedContainer{
+    margin: 10px 0px;
+    display: flex;
+    flex:1;
+    align-items: center;
+    background-color: #f7f596e5,
+  }
+  .topFeaturedContainerLeft{
+    margin: 10px 0px;
+    display: flex;
+    flex:1;
+    align-items: center;
+    background-color: #f7f596e5,
+  }
+  
+  .topFeaturedItemRight {
+    flex: 1;
+    margin: 0px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+ /* -webkit-box-shadow: -1px 14px 24px -1px rgba(0,0,0,0.8); 
+    box-shadow: -1px 14px 24px -1px rgba(0,0,0,0.8); */
+    z-index:10;
+    background-color: #f7f596e5;
+  }
+  .topFeaturedItemLeft {
+    flex: 1.8;
+    margin: 0px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 14px 3px rgba(0,0,0,0.45); 
+box-shadow: 5px 5px 14px 3px rgba(0,0,0,0.45);
+    z-index:10;
+    background-color: #f7f596e5;
+  }
+  
+  .topFeaturedTitle{
+      font-size: 20px;
+  }
+  
+ 
+  .featuredOccupancy{
+      color:#5c0b0b;
+      text-align: center;
+  }
+  .occupancy{
+/*    border-radius: 50%; */
+      border-color:#001529;
+      /*border:none;*/
+      z-index:10;
+
+  }
+  .occupancyLeft{
+    /*    border-radius: 50%; */
+          border-color:#001529;
+          /*border:none;*/
+          z-index:10;
+          
+          margin-left: 30px;
+    
+      }
+  .occupancyInner{
+      border-radius:50%;
+      padding:10px;
+      color:rgb(238, 177, 11);
+      border:none;
+      z-index:10;
+  }
+  .featuredMoney{
+      font-size: 30px;
+      font-weight: 600;
+  }
+  
+  .featuredMoneyRate{
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+  }
+  
+  .topFeaturedIcon{
+      font-size: 14px;
+      margin-left: 5px;
+      color: green;
+  }
+  
+  .featuredIcon.negative{
+      color: red;
+  }
+  
+  .topFeaturedSub{
+      font-size: 15px;
+      color: gray;
+  }
+  #slot{
+      font-size: xx-large;
+
+
+  }
+
+  #energy{
+      font-size: xx-large;
+  }

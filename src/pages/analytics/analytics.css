@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,700');
+
+
+body {
+    height: 100vh;
+    background: #f9f9f9;
+}
+
+.analytics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top:30px;
+  }
+  
+  
+  .featuredItemAnalytics {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 14px 3px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 14px 3px rgba(0,0,0,0.3);
+    z-index:10;
+  }
+  
+  .featuredTitle{
+      font-size: 20px;
+  }
+  
+  .featuredMoneyContainer{
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .featuredMoney{
+      font-size: 30px;
+      font-weight: 600;
+  }
+  
+  .featuredMoneyRate{
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+  }
+  
+  .featuredIcon{
+      font-size: 14px;
+      margin-left: 5px;
+      color: green;
+  }
+  
+  .featuredIcon.negative{
+      color: red;
+  }
+  
+  .featuredSub{
+      font-size: 15px;
+      color: gray;
+  }
+
+#chart, .chart-box {
+    padding:30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0,0,0, 0.1);
+    
+}
+
+select.flat-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #008FFB url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'60px\' height=\'60px\'><polyline fill=\'white\' points=\'46.139,15.518 25.166,36.49 4.193,15.519\'/></svg>") no-repeat scroll right 2px top 9px / 16px 16px;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    font-family: arial,tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0 none;
+    height: 33px;
+    padding: 5px 20px 5px 10px;
+    text-align: center;
+    text-indent: 0.01px;
+    text-overflow: "";
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease 0s;
+    width: auto;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+  }
+  select.flat-select:focus, select.flat-select:hover {
+    border: 0;
+    outline: 0;
+  }
+  
+
+.apexcharts-canvas {
+    margin: 0 auto;
+}
+
+#chart2 {
+    padding: 0;
+    max-width: 380px;
+    margin: 35px auto;
+  }
+  #chart3 {
+    padding: 0;
+    max-width: 380px;
+    flex:1;
+    margin: 35px auto;
+    border-right: none;
+  }
+  #chart4 {
+    padding: 0;
+    max-width: 380px;
+    margin: 35px auto;
+    border-left: none;
+    flex:1;
+  }
+
+  #wrapper {
+    padding-top: 20px;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0, 0, 0, 0.1);
+    max-width: 650px;
+    margin: 35px auto;
+  }
+  
+  #chart-line {
+    position: relative;
+    margin-top: -40px;
+  }
