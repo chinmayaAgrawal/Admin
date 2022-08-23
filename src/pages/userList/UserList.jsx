@@ -8,6 +8,8 @@ import { useState } from "react";
 
 export default function UserList() {
   const [data, setData] = useState(dataRows);
+  const [pageSize, setPageSize] = useState(5);
+
   
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
@@ -22,7 +24,6 @@ export default function UserList() {
       renderCell: (params) => {
         return (
           <div className="userListUser">
-           
             {params.row.username}
           </div>
         );
@@ -62,8 +63,6 @@ export default function UserList() {
         if (params.row.status === "inactive"){
         return (
           <>
-             
-              
               <button class="inactive" >inactive</button>
           </>
         );       
@@ -71,8 +70,6 @@ export default function UserList() {
       else{
         return(
           <>
-              
-              
               <button class="active" >active</button>
           </>
         );
@@ -105,9 +102,16 @@ export default function UserList() {
         rows={data}
         disableSelectionOnClick
         columns={columns}
-        pageSize={8}
+        rowHeight={200}
+        //pageSize={8}
         checkboxSelection
+        pageSize={pageSize}
+        onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}
+        rowsPerPageOptions={[5, 10, 20]}
+        pagination
+        {...data}
       />
     </div>
   );
 }
+/** align-items: center; */
