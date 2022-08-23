@@ -1,0 +1,161 @@
+
+
+.productList{
+  flex: 0.5;
+
+  
+}
+
+.productListItem{
+  display: flex;
+  align-items: center;
+}
+
+.productListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+ /* margin-right: 10px;*/
+}
+
+.productListEdit{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productListDelete{
+  color: red;
+  cursor: pointer;
+}
+.inactive{
+  
+  border-radius: 12px;
+  color: white;
+  background: #FF8500 ;
+  
+}
+.active{
+border-radius: 12px;
+color: white;
+background: #075f04 ;
+border:none;
+}
+.empty{
+
+border-radius: 12px;
+color: white;
+background: #0d92c7 ;
+border:none;
+padding: 5px;
+
+}
+.occupied{
+border-radius: 12px;
+color: white;
+background: #92077b ;
+border:none;
+padding: 5px;
+}
+
+.maintainance{
+   border-radius: 12px;
+   color: white;
+   background: #da7808 ;
+   border:none;
+   padding: 5px;
+
+}
+
+.full{
+  border:none;
+  color: #075f04;
+  /*background: #ece90a;*/  
+}
+.medium{
+  border:none;
+  color: #b88008;
+  /*background: #ece90a;*/  
+}
+.low,.veryLow{
+  border:none;
+  color: red;
+  /*background: #ece90a;*/  
+}
+
+.battery{
+  transform: rotate(90deg);
+}
+.mode{
+  cursor: pointer;
+  
+}
+.configSoftware{
+  margin-bottom:10px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.configHardware{
+  cursor: pointer;
+}
+.node1{
+   border:none;
+   border-radius: 50%;
+   background-color: #13c230b9;
+   margin-left: 5px;
+}
+.node2{
+  border:none;
+  border-radius: 50%;
+  background-color: #c4b109b9;
+  margin-left: 5px;
+}
+.node3{
+  border:none;
+  border-radius: 50%;
+  background-color: #4cccecb9;
+  margin-left: 5px;
+}
+.node4{
+  border:none;
+  border-radius: 50%;
+  background-color: #ec4c41b9;
+  margin-left: 5px;
+}
+.node1name{
+  border:none;
+  background-color: #13c230b9;
+  margin-left: 5px;
+}
+.node2name{
+ border:none;
+ 
+ background-color: #c4b109b9;
+ margin-left: 5px;
+}
+.node3name{
+ border:none;
+ 
+ background-color: #4cccecb9;
+ margin-left: 5px;
+}
+.node4name{
+ border:none;
+ 
+ background-color: #ec4c41b9;
+ margin-left: 5px;
+}
+.experiment{
+  border-radius: 12px;
+  color: rgb(255, 100, 100);
+  background: #4cccecb9 ;
+  background: #13c230b9 ;
+  background: #c4b109b9 ;
+  background: #ec4c41b9 ;
+  border:none;
+  }
