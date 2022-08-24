@@ -1,6 +1,7 @@
 import { useState,useEffect } from 'react';
 import { Card } from 'react-bootstrap';
 import './QnA.css';
+import { Link } from "react-router-dom";
 //import HomePage from './components/HomePage.js';
 
 export default function QnA() {
@@ -63,10 +64,10 @@ export default function QnA() {
 
   return (
     <Card>
-  <Card.Body> 
-   
-  </Card.Body>
-  </Card>
+    <Card.Body> 
+    </Card.Body>
+    </Card>
+  
    );
 }
 

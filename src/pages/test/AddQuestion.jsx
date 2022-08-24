@@ -1,0 +1,35 @@
+import { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Form from "react-bootstrap/Form";
+export default function AddQuestion(props) {
+  const [question, setQuestion] = useState("");
+  const submit = (e) => {
+    e.preventDefault();
+    if (!question) {
+      alert("Question cannot be blank!");
+    } else {
+      props.addQuestion(question);
+      setQuestion("");
+    }
+  };
+  return (
+    <div>
+      <Form onSubmit={submit}>
+        <Form.Group controlId="formBasicEmail">
+          <Form.Control
+            type="text"
+            placeholder="Type here..."
+            value={question}
+            onChange={(e) => setQuestion(e.target.value)}
+          />
+          <Form.Text className="text-muted">
+          Submit your question here...
+          </Form.Text>
+        </Form.Group>
+        <button type="submit" className="btn btn-sm btn-success">
+          Post
+        </button>
+      </Form>
+    </div>
+  );
+}

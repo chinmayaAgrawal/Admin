@@ -36,7 +36,7 @@ export default function Topbar() {
         <div className="topRight">
         <Link to="/QnA" className="link" >
           <div className="topbarIconContainer">
-            <button class="test" >TEST <  QnA/> </button>
+            <button class="test" >TEST<QnA/> </button>
           </div>
           </Link>
         <Link to="/notifications" className="link" >
